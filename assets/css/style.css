@@ -1,0 +1,127 @@
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* início cabeçalho */
+header{
+    width: 100%;
+    display: flex;
+    background-color: #0FCE68;
+    justify-content: center;
+    align-items: center; 
+    gap: 50px;
+    position: absolute;
+    height: 90px;
+}
+
+header button{
+    align-items: center;
+    background-color: #0FCE68;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    color:#fff;
+    transition:200ms;
+}
+
+header button:hover{
+    color: #ffffd9;
+}
+
+/* 
+header button::after{
+    border-left:#fff;
+} */
+
+
+#button-header {
+    background-color: #fff;
+    color: black;
+    height: 50%;
+    width: 139px;
+    border-radius: 5px;
+    transition: 200ms;
+}
+
+#button-header:hover{
+    background-color: #0FCE68;
+    color: #fff;
+}
+
+/* fim cabeçalho */
+
+/* começo destaque */
+
+.destaque{
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-top:200px ;
+    margin-left: 25%;
+    width: 50%;
+    gap: 30px;
+
+}
+.destaque p{
+    font-size: 97px;
+    font-weight: bold;
+}
+.destaque img{
+    width: 305px;
+    height: 326px;
+}
+
+/* fim destaque */
+
+.containers{
+    background-color: #ffffd9;
+    width: 50%;
+    margin-left: 25% ;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 126px;
+    padding-right: 126px;
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
+.titulos-cards {
+    width: 100%;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-cards{
+    font-size: 30px;
+    margin-top: 40px;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.containers button{
+    background-color: #0FCE68;
+    border: none;
+    width: 192px;
+    height: 88px;
+    color: #ffffd9;
+    border-radius: 10px;
+    font-size: 31px;
+    font-weight: bold;
+    margin-left: 35%;
+    margin-top: 30px;
+}
