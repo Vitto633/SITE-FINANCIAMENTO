@@ -16,7 +16,7 @@ body{
     padding: 0;
 }
 /* início cabeçalho */
-header{
+nav{
     width: 100%;
     display: inline-block;
     background-color: #0FCE68;
@@ -29,7 +29,7 @@ header{
 }
 
 
-header button{
+nav button{
     align-items: center;
     background-color: #0FCE68;
     border: none;
@@ -41,15 +41,15 @@ header button{
     cursor: pointer;
     
 }
-header button:nth-last-child(){
+nav button:nth-last-child(){
     border-right: solid 1px white;
 }
 
-header button:hover{
+nav button:hover{
     color: #ffffd9;
     font-size: 25px;
 }
-#button-header {
+#button-nav{
     background-color: #fff;
     color: black;
     height: 50%;
@@ -59,7 +59,7 @@ header button:hover{
     cursor: pointer;
 }
 
-#button-header:hover{
+#button-nav:hover{
     background-color: #0FCE68;
     color: #fff;
 }
@@ -98,6 +98,7 @@ header button:hover{
     padding-right: 126px;
     padding-top: 65px;
     padding-bottom: 65px;
+    margin-bottom: 100px;
 }
 
 .titulos-cards {
