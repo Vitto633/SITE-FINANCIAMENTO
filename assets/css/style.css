@@ -192,15 +192,71 @@ footer p{
 }
 
 .container-out p{
-    border: dashed 1px red;
     padding: 0 100px 0 100px;
     font-size: 20px;
     font-weight: bold;
+    text-align: justify;
+    padding: 50px;
 }
 
-#titulo-container{
+.titulo-container{
     text-align: center;
     font-weight: bold;
     font-size: 30px;
+    padding-top: 50px;
 }
 
+.container-inside{
+    width: 90%;
+    margin: auto auto;
+    background-color: #f7f7f7;
+    border: solid 1px #D6D6D6;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.texto{
+    width: 85%;
+    margin: auto auto;
+}
+
+.btn-card{
+    width: 90%;
+    margin: auto auto;
+    display: flex;
+    border: solid 2px gray;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    text-align: left;
+    background-color: white;
+}
+
+.btn-card h2{
+    flex: 20%;
+    text-align: center;
+}
+
+.btn-card p {
+    flex: 60%;
+    text-align: left;
+    padding: 0;
+}
+
+.btn-card button{
+    flex: 20%;
+    background-color: #0FCE68;
+    color: white;
+    font-size: 30px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+    border-left: solid 2px gray;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+
+.btn-card button:hover{
+    background-color: #30EF89;
+    font-size:35px;
+    color: #ffff9e;
+}
