@@ -220,7 +220,7 @@ footer p{
     margin: auto auto;
 }
 
-#btn-card{
+.btn-card{
     width: 90%;
     margin: auto auto;
     display: flex;
@@ -233,18 +233,18 @@ footer p{
     transition: background-color 0.4s ease, font-size 0.4s ease, color 0.4s ease;
 }
 
-#btn-card h2{
+.btn-card h2{
     flex: 20%;
     text-align: center; 
 }
 
-#btn-card p {
+.btn-card p {
     flex: 60%;
     text-align: left;
     padding: 0;
 }
 
-#btn-card button{
+.btn-card button{
     flex: 20%;
     background-color: #0FCE68;
     color: white;
@@ -257,63 +257,30 @@ footer p{
     cursor: pointer;
 }
 
-#btn-card h3{
+.btn-card h3{
     display: none;
 }
 
-#btn-card button:hover{
+.btn-card button:hover{
     background-color: #30EF89;
     font-size:35px;
     color: #ffff9e;
 }
 
-#click{
-    height: 200px;
+.click{
+    height: auto;
     background-color: white;
     border: solid 2px #0FCE68;
     transition: background-color 0.4s ease, font-size 0.4s ease, color 0.4s ease;
-
-    width: 90%;
-    margin: auto auto;
-    display: flex;
-    border-top-right-radius: 6px;
-    border-bottom-right-radius: 6px;
-    text-align: left;
-    flex-flow: row wrap;
 }
 
-#click h2{
-    flex: 20%;
-    text-align: center;
-}
-
-#click p{
-    flex: 60%;
-    text-align: left;
-    padding: 0;
-}
-
-#click button{
+.click button{
     height: 70px;
     border-left: none;
     border-bottom-right-radius:0;
-
-    flex: 20%;
-    background-color: #0FCE68;
-    color: white;
-    font-size: 30px;
-    border: none;
-    transition: 0.4s ease;
-    cursor: pointer;
 }
 
-#click button:hover{
-    background-color: #30EF89;
-    font-size:35px;
-    color: #ffff9e;
-}
-
-#click h3{
+.click h3{
     flex: 50%;
     margin: auto auto;
     display: block;
