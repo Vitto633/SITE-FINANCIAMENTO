@@ -189,6 +189,9 @@ footer p{
     margin: auto auto;
     border: solid 1px #D6D6D6;
     border-radius: 20px;
+    height: auto;
+    padding: 40px;
+    margin-bottom: 100px;
 }
 
 .container-out p{
@@ -211,7 +214,7 @@ footer p{
     margin: auto auto;
     background-color: #f7f7f7;
     border: solid 1px #D6D6D6;
-    height: 400px;
+    height: auto;
     border-radius: 10px;
 }
 
@@ -220,7 +223,7 @@ footer p{
     margin: auto auto;
 }
 
-.btn-card{
+.btn-card, .btn-card2, .btn-card3, .btn-card4{
     width: 90%;
     margin: auto auto;
     display: flex;
@@ -231,20 +234,21 @@ footer p{
     background-color: white;
     flex-flow: row wrap;
     transition: background-color 0.4s ease, font-size 0.4s ease, color 0.4s ease;
+    margin-bottom: 50px;
 }
 
-.btn-card h2{
+.btn-card h2, .btn-card2 h2, .btn-card3 h2, .btn-card4 h2{
     flex: 20%;
     text-align: center; 
 }
 
-.btn-card p {
+.btn-card p , .btn-card2 p, .btn-card3 p, .btn-card4 p{
     flex: 60%;
     text-align: left;
     padding: 0;
 }
 
-.btn-card button{
+.btn-card button, .btn-card2 button, .btn-card3 button, .btn-card4 button{
     flex: 20%;
     background-color: #0FCE68;
     color: white;
@@ -257,11 +261,11 @@ footer p{
     cursor: pointer;
 }
 
-.btn-card h3{
+.btn-card h3, .btn-card2 h3, .btn-card3 h3, .btn-card4 h3{
     display: none;
 }
 
-.btn-card button:hover{
+.btn-card button:hover, .btn-card2 button:hover, .btn-card3 button:hover, .btn-card4 button:hover{
     background-color: #30EF89;
     font-size:35px;
     color: #ffff9e;
