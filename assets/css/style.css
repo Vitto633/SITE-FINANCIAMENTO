@@ -223,11 +223,11 @@ footer p{
     margin: auto auto;
 }
 
-.btn-card, .btn-card2, .btn-card3, .btn-card4{
+.btn-card, .btn-card2, .btn-card3, .btn-card4, .btn-card5, .btn-card6, .btn-card7, .btn-card8, .btn-card9{
     width: 90%;
     margin: auto auto;
     display: flex;
-    border: solid 2px gray;
+    border: solid 2px rgb(206, 206, 206);
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
     text-align: left;
@@ -235,20 +235,21 @@ footer p{
     flex-flow: row wrap;
     transition: background-color 0.4s ease, font-size 0.4s ease, color 0.4s ease;
     margin-bottom: 50px;
+    color: rgb(95, 95, 95);
 }
 
-.btn-card h2, .btn-card2 h2, .btn-card3 h2, .btn-card4 h2{
+.btn-card h2, .btn-card2 h2, .btn-card3 h2, .btn-card4 h2, .btn-card5 h2, .btn-card6 h2, .btn-card7 h2, .btn-card8 h2, .btn-card9 h2{
     flex: 20%;
     text-align: center; 
 }
 
-.btn-card p , .btn-card2 p, .btn-card3 p, .btn-card4 p{
+.btn-card p , .btn-card2 p, .btn-card3 p, .btn-card4 p, .btn-card5 p, .btn-card6 p, .btn-card7 p, .btn-card8 p, .btn-card9 p{
     flex: 60%;
     text-align: left;
     padding: 0;
 }
 
-.btn-card button, .btn-card2 button, .btn-card3 button, .btn-card4 button{
+.btn-card button, .btn-card2 button, .btn-card3 button, .btn-card4 button, .btn-card5 button, .btn-card6 button, .btn-card7 button, .btn-card8 button, .btn-card9 button{
     flex: 20%;
     background-color: #0FCE68;
     color: white;
@@ -256,16 +257,16 @@ footer p{
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     border: none;
-    border-left: solid 2px gray;
+    border-left: solid 2px rgb(206, 206, 206);
     transition: 0.4s ease;
     cursor: pointer;
 }
 
-.btn-card h3, .btn-card2 h3, .btn-card3 h3, .btn-card4 h3{
+.btn-card h3, .btn-card2 h3, .btn-card3 h3, .btn-card4 h3, .btn-card5 h3, .btn-card6 h3, .btn-card7 h3, .btn-card8 h3, .btn-card9 h3{
     display: none;
 }
 
-.btn-card button:hover, .btn-card2 button:hover, .btn-card3 button:hover, .btn-card4 button:hover{
+.btn-card button:hover, .btn-card2 button:hover, .btn-card3 button:hover, .btn-card4 button:hover, .btn-card5 button:hover, .btn-card6 button:hover, .btn-card7 button:hover, .btn-card8 button:hover, .btn-card9 button:hover{
     background-color: #30EF89;
     font-size:35px;
     color: #ffff9e;
