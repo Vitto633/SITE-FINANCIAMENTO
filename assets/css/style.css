@@ -6,13 +6,14 @@
 
 
 *{
+     margin: 0;
     box-sizing: border-box;
     font-family: 'inter';
     scroll-behavior: smooth;      
 }
 
 body{
-    margin: 0;
+   
     padding: 0;
 }
 /* início cabeçalho */
@@ -41,13 +42,13 @@ nav button{
     cursor: pointer;
     
 }
-nav button:nth-last-child(){
-    border-right: solid 1px white;
-}
 
+header{
+    margin-bottom: 50px;
+}
 nav button:hover{
     color: #ffffd9;
-    font-size: 25px;
+    font-size: 22px;
 }
 #button-nav{
     background-color: #fff;
@@ -55,7 +56,7 @@ nav button:hover{
     height: 50%;
     width: 139px;
     border-radius: 5px;
-    transition: 200ms ease;
+    transition: 0.4s ease;
     cursor: pointer;
 }
 
@@ -161,13 +162,16 @@ footer{
 }
 
 #titulo-footer{
+    margin-top: 20px;
     font-size: 35px;
     font-weight: bold;
 }
 
 #integrantes{
+    margin-top: 50px;
     font-size: 30px;
     font-weight: 700;
+    padding: 20px;
 }
 
 footer p{
